@@ -2,7 +2,10 @@
   "name": "@semver-multi-apps/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:a":"nx serve goal-time --port 4050",
+    "start:b":"nx serve birds-watching --port 4060"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.1.0",

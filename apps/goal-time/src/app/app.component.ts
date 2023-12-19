@@ -11,5 +11,5 @@ import {HeaderComponent} from "@semver-multi-apps/header";
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'birds watching';
+  title = 'goal time';
 }
