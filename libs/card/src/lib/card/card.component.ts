@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {Component, Input} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {CardInterface} from "./card.interface";
 
 @Component({
   selector: 'semver-multi-apps-card',
@@ -8,4 +9,6 @@ import { CommonModule } from '@angular/common';
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
 })
-export class CardComponent {}
+export class CardComponent {
+  @Input() card!: CardInterface;
+}

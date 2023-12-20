@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@semver-multi-apps/card": ["libs/card/src/index.ts"],
-      "@semver-multi-apps/header": ["libs/header/src/index.ts"]
+      "@semver-multi-apps/header": ["libs/header/src/index.ts"],
+      "@semver-multi-apps/main": ["libs/main/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
