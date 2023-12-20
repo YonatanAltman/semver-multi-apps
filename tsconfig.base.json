@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@semver-multi-apps/card": ["libs/card/src/index.ts"],
       "@semver-multi-apps/header": ["libs/header/src/index.ts"]
     }
   },

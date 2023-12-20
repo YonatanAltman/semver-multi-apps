@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start:a":"nx serve goal-time --port 4050",
-    "start:b":"nx serve birds-watching --port 4060"
+    "start:a":"nx serve goal-time --port 4050 -o",
+    "start:b":"nx serve birds-watching --port 4060 -o",
+    "open" : "npm run start:a & npm run start:b"
   },
   "private": true,
   "dependencies": {
